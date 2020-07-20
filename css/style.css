@@ -64,9 +64,14 @@
  padding: 0px;
  }
 
+.float-right {
+  float: right;
+}
  /* End basic value */
 
  /* specific style */
+
+/* header top */
 
  .logo-digitalocean {
    line-height: 100px;
@@ -87,9 +92,17 @@
   background-color: #fff;
   margin-left: 10px;
   color: #034AFF;
-
  }
 
+ .fa-bars {
+   font-size: 30px;
+   color: #000;
+   line-height: 100px;
+ }
+
+ /* header top */
+
+/* jumbotron */
  .jumbotron_header {
    height: 600px;
    width: 100%;
