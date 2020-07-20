@@ -24,40 +24,44 @@
   text-align: right;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .padding {
  padding: 0px 10px;
  }
 
 .padding_bottom {
- padding-bottom: 30px;
+ padding-bottom: 50px;
  }
 
 .padding_top {
- padding-top: 30px;
+ padding-top: 50px;
  }
 
 .padding_left {
- padding-left: 30px;
+ padding-left: 50px;
  }
 
 .padding_right {
- padding-right: 30px;
+ padding-right: 50px;
  }
 
 .margin_bottom {
- margin-bottom: 30px;
+ margin-bottom: 50px;
  }
 
 .margin_top {
- margin-top: 30px;
+ margin-top: 50px;
  }
 
 .margin_left {
- margin-left: 30px;
+ margin-left: 50px;
  }
 
 .margin_right {
- margin-right: 30px;
+ margin-right: 50px;
  }
 
 .no-gutter-margin {
@@ -80,6 +84,11 @@
   margin-top: 10px;
 }
 
+img {
+  width: 100%;
+  min-width: 150px;
+  padding-top: 35px;
+}
 
  /* End basic value */
 
@@ -87,9 +96,14 @@
 
 /* header top */
 
- .logo-digitalocean {
-   line-height: 100px;
- }
+.header_top {
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+}
 
  .header_top div li {
    list-style: none;
@@ -110,7 +124,7 @@
 
  .fa-bars {
    font-size: 30px;
-   color: #000;
+   color: #034AFF;
    line-height: 100px;
  }
 
@@ -122,29 +136,29 @@
 /* jumbotron */
 
  .jumbotron_header {
-   height: 400px;
    width: 100%;
-   background-color: #034AFF;
+   background: linear-gradient(#00259F, #0043C2);
+   margin-top: 100px;
  }
 
 .container div h1 {
   color: #fff;
   font-weight: bold;
-  line-height: 45px;
-  font-size: 40px;
+  line-height: 55px;
+  font-size: 50px;
 }
 
 .container div p {
   color: lightgrey;
   font-weight: bold;
-  line-height: 20px;
-  font-size: 15px;
+  line-height: 28px;
+  font-size: 17px;
   opacity: 0.5;
 }
 
 .box {
-  height: 300px;
-  width: 400px;
+  height: 350px;
+  width: 550px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -159,4 +173,49 @@
   color: #034AFF;
   font-size: 30px;
   text-align: center;
+}
+
+.jumbotron_btn {
+ margin-top: 10px;
+ padding: 5px 179px;
+ border: 2px solid #579AFF;
+ border-radius: 5px;
+ background-color: #579AFF;
+ color: #fff;
+}
+
+.jumbotron_header form p {
+  color: #000;
+}
+
+.jumbotron_header form a {
+  color: #034AFF;
+  margin-left: 5px;
+}
+
+/* jumbotron */
+
+/* Header bottom */
+
+.header_bottom .container-fluid {
+  background-color: #F3F5F9;
+  width: 100%;
+}
+
+.header_bottom .container h3 {
+  color: #808080;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.header_bottom .container .row .text-align-center a {
+  color: #034AFF;
+}
+
+.fa-angle-right {
+  padding-left: 5px;
+}
+
+.header_bottom_a {
+  color: #034AFF;
 }
