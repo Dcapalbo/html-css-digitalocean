@@ -1,0 +1,43 @@
+/* general style */
+
+.clearfix::after {
+ content: "";
+ display: table;
+ clear: both;
+ }
+
+.wrapper {
+ width: 70%;
+ margin: auto;
+ }
+
+.container {
+ max-width: 1170px;
+ margin: 0 auto;
+ }
+
+.header_top {
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* End basic value */
+
+/* specific style */
+
+.logo {
+  line-height: 100px;
+}
+
+.header_top div li {
+  list-style: none;
+  text-transform: capitalize;
+  display: inline-block;
+  line-height: 100px;
+  padding-left: 10px;
+}
