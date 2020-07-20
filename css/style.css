@@ -16,9 +16,13 @@
  margin: 0 auto;
  }
 
-.text-align {
+.text-align-center {
  text-align: center;
  }
+
+.text-align-right {
+  text-align: right;
+}
 
 .padding {
  padding: 0px 10px;
@@ -67,6 +71,16 @@
 .float-right {
   float: right;
 }
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-bottom-10 {
+  margin-top: 10px;
+}
+
+
  /* End basic value */
 
  /* specific style */
@@ -100,12 +114,15 @@
    line-height: 100px;
  }
 
+.fa-angle-down {
+  padding-left: 2px;
+}
  /* header top */
 
 /* jumbotron */
 
  .jumbotron_header {
-   height: 600px;
+   height: 400px;
    width: 100%;
    background-color: #034AFF;
  }
@@ -113,13 +130,16 @@
 .container div h1 {
   color: #fff;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 45px;
+  font-size: 40px;
 }
 
 .container div p {
   color: lightgrey;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 20px;
+  font-size: 15px;
+  opacity: 0.5;
 }
 
 .box {
@@ -127,4 +147,16 @@
   width: 400px;
   background-color: #fff;
   border-radius: 5px;
+}
+
+.box h2 {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box h3 {
+  color: #034AFF;
+  font-size: 30px;
+  text-align: center;
 }
