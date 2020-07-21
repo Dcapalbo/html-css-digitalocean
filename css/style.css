@@ -7,7 +7,7 @@
  }
 
 .wrapper {
- width: 70%;
+ width: 60%;
  margin: auto;
  }
 
@@ -28,6 +28,22 @@
   text-align: left;
 }
 
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+.vertical-align-sub {
+  vertical-align: sub;
+}
+
+.vertical-align-super {
+  vertical-align: super;
+}
+
 .padding {
  padding: 0px 10px;
  }
@@ -40,6 +56,15 @@
  padding-top: 50px;
  }
 
+.padding_top35 {
+  padding-top: 35px;
+}
+.padding_top10 {
+  padding-top: 10px;
+}
+.padding_top15 {
+  padding-top: 15px;
+}
 .padding_left {
  padding-left: 50px;
  }
@@ -84,10 +109,13 @@
   margin-top: 10px;
 }
 
+.margin-top35 {
+  margin-top: 35px;
+}
+
 img {
   width: 100%;
-  min-width: 150px;
-  padding-top: 35px;
+  min-width: 100px;
 }
 
  /* End basic value */
@@ -149,16 +177,13 @@ img {
 }
 
 .container div p {
-  color: lightgrey;
+  color: #A9A9A9;
   font-weight: bold;
   line-height: 28px;
   font-size: 17px;
-  opacity: 0.5;
 }
 
 .box {
-  height: 350px;
-  width: 550px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -173,6 +198,7 @@ img {
   color: #034AFF;
   font-size: 30px;
   text-align: center;
+
 }
 
 .jumbotron_btn {
@@ -189,8 +215,7 @@ img {
 }
 
 .jumbotron_header form a {
-  color: #034AFF;
-  margin-left: 5px;
+  color:
 }
 
 /* jumbotron */
@@ -218,4 +243,81 @@ img {
 
 .header_bottom_a {
   color: #034AFF;
+}
+
+/* fine header bottom */
+
+/* prima sezione main */
+
+.first_section {
+  background-color: #fff;
+  width: 100%;
+  height: 400px;
+}
+
+.first_section div p {
+  font-size: 20px;
+  color: #A9A9A9;
+}
+
+.first_section .row .menu_block {
+  list-style: none;
+  color: #A9A9A9;
+  border-left: 1px solid #A9A9A9;
+  padding-left: 10px;
+}
+
+.first_section .menu_block li {
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.first_section_img {
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+.first_section img {
+  width: 30px;
+  height: 30px;
+  padding-right: 70px;
+}
+
+.first_section h3 {
+  font-size: 15px;
+}
+
+.first_section .row p {
+  font-size: 15px;
+}
+
+/* mediaqueri */
+
+@media screen and (max-width: 992px) {
+
+  div .left-col {
+    text-align: center;
+  }
+
+  .jumbotron_header .box {
+    text-align: center;
+  }
+}
+
+  .jumbotron_btn {
+    padding: 5px 279px;
+  }
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+
+  .jumbotron_btn {
+    padding: 5px 178px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width:2000px) {
+
+  .jumbotron_btn {
+    padding: 5px 196px;
+  }
 }
