@@ -40,57 +40,64 @@
 }
 
 .padding {
- padding: 0px 10px;
- }
+  padding: 0px 10px;
+}
 
 .padding_bottom {
- padding-bottom: 50px;
- }
+  padding-bottom: 50px;
+}
 
 .padding_top {
- padding-top: 50px;
- }
+  padding-top: 50px;
+}
 
 .padding_top35 {
   padding-top: 35px;
 }
+
+.padding_top5 {
+  padding-top: 5px;
+}
+
 .padding_top10 {
   padding-top: 10px;
 }
+
 .padding_top15 {
   padding-top: 15px;
 }
+
 .padding_left {
- padding-left: 50px;
- }
+  padding-left: 50px;
+}
 
 .padding_right {
- padding-right: 50px;
- }
+  padding-right: 50px;
+}
 
 .margin_bottom {
- margin-bottom: 50px;
- }
+  margin-bottom: 50px;
+}
 
 .margin_top {
- margin-top: 50px;
- }
+  margin-top: 50px;
+}
 
 .margin_left {
- margin-left: 50px;
- }
+  margin-left: 50px;
+}
 
 .margin_right {
- margin-right: 50px;
- }
+  margin-right: 50px;
+}
 
 .no-gutter-margin {
- margin: 0px;
- }
+  margin: 0px;
+}
 
 .no-gutter-padding {
- padding: 0px;
- }
+  padding: 0px;
+}
 
 .float-right {
   float: right;
@@ -112,6 +119,11 @@
   float: right;
 }
 
+.border {
+  border-bottom: 1px solid #fff;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -123,6 +135,10 @@ img {
 
 h2 {
   font-weight: bold;
+}
+
+h5 {
+  margin-top: 8px;
 }
  /* End basic value */
 
@@ -379,9 +395,7 @@ h2 {
   color: #BEE8DC;
 }
 
-.fourth_section .row {
-  border-bottom: 1px solid #fff;
-}
+/* fine quarta sessione main */
 
 
 /* mediaqueri */
@@ -404,13 +418,17 @@ h2 {
 @media screen and (min-width: 992px) and (max-width:1200px) {
 
   .jumbotron_btn {
-    padding: 5px 178px;
+    padding: 5px 107px;
+  }
+
+  .fourth_section .row p {
+    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width:2000px) {
 
   .jumbotron_btn {
-    padding: 5px 196px;
+    padding: 5px 149px;
   }
 }
