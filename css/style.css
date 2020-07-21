@@ -198,12 +198,12 @@ h5 {
 .fa-angle-down {
   padding-left: 2px;
 }
+
  /* header top */
 
 /* jumbotron */
 
  .jumbotron_header {
-   width: 100%;
    background-image: url(..img/bg_home.jpg);
    background-repeat: no-repeat;
    background-size: 1000px;
@@ -279,6 +279,12 @@ h5 {
 
 .header_bottom_a {
   color: #034AFF;
+}
+
+.header_bottom img {
+  width: calc(100%/ 6);
+  float: left;
+  vertical-align: middle;
 }
 
 /* fine header bottom */
@@ -419,7 +425,7 @@ h5 {
 
 .fifth_section {
   background-color: #F3F5F9;
-  height: 800px;
+  height: 650px;
 }
 
 .fifth_section .square_white {
@@ -457,6 +463,14 @@ border-radius: 15px;
   padding-top: 100%;
 }
 
+/* fine quinta sezione */
+
+/* inizio footer */
+
+/* inizio prima sezione footer */
+
+
+
 /* mediaqueri */
 
 @media screen and (max-width: 992px) {
@@ -489,5 +503,12 @@ border-radius: 15px;
 
   .jumbotron_btn {
     padding: 5px 149px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width:749px) {
+
+  .jumbotron_btn {
+    padding: 5px 275px;
   }
 }
