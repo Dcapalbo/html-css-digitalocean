@@ -28,6 +28,10 @@ h5 {
   margin-top: 8px;
 }
 
+p {
+  color: #A9A9A9;
+}
+
 .text-align-center {
  text-align: center;
 }
@@ -153,6 +157,10 @@ h5 {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .border {
   border-bottom: 1px solid #fff;
 }
@@ -218,7 +226,6 @@ h5 {
 }
 
 .jumbotron .container div p {
-  color: #A9A9A9;
   font-weight: bold;
   line-height: 28px;
   font-size: 17px;
@@ -298,7 +305,6 @@ h5 {
 
 .first_section div p {
   font-size: 20px;
-  color: #A9A9A9;
 }
 
 .first_section .row .menu_block {
@@ -348,7 +354,6 @@ h5 {
 
 .second_section p {
   font-size: 25px;
-  color: #A9A9A9;
 }
 
 .second_section .fa-angle-left {
@@ -410,10 +415,6 @@ h5 {
   color: #fff;
 }
 
-.fourth_section p {
-  color: #A9A9A9;
-}
-
 .fourth_section a {
   color: #BEE8DC;
 }
@@ -469,19 +470,60 @@ border-radius: 15px;
 
 /* inizio prima sezione footer */
 
-.footer_bottom {
+.first_footer_section {
   background-color: #0028A3;
   width: 100%;
-  height: 300px;
 }
 
-.footer_bottom h2 {
+.first_footer_section h2 {
   font-weight: bold;
   color: #fff;
-
 }
 
+.footer_btn {
+ padding: 10px 30px;
+ border: 2px solid #0028A3;
+ border-radius: 10px;
+ background-color: #fff;
+ color: #0028A3;
+}
 
+/* fine prima sezione footer */
+
+/* inizio seconda sezione footer */
+
+.second_footer_section {
+  background-color: #031C4E;
+  width:100%;
+}
+
+.second_footer_section img {
+  width: 70px;
+  height: 70px;
+}
+
+.second_footer_section li {
+  display: inline-block;
+  padding-left: 10px;
+  color: #A9A9A9;
+  font-size: 25px;
+}
+
+.second_footer_section .column_menu li {
+  display: block;
+  padding-top: 10px;
+  color: #A9A9A9;
+  font-size: 15px;
+}
+.second_footer_section img {
+  padding-bottom: 10px;
+}
+
+.second_footer_section h3 {
+  margin-left: 8px;
+  color: #fff;
+  font-weight: bold;
+}
 /* mediaqueri */
 
 @media screen and (max-width: 992px) {
