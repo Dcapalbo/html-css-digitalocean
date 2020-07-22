@@ -532,7 +532,36 @@ p {
   font-weight: bold;
 }
 
+.Shark_text {
+  position: fixed;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 400px;
+  z-index: 1;
+  right: 10%;
+  bottom: 5.6%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.Shark_text p {
+  color: #000;
+}
+
+.arrow_left {
+  width: 0;
+  height: 0;
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, 10%);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left:10px solid #fff;
+  position: absolute;
+}
+
 #Shark {
+  position: relative;
   position: fixed;
   height: 100px;
   z-index: 1;
@@ -541,6 +570,7 @@ p {
   border-radius: 15px;
   margin: 0px 70px 50px 0px;
 }
+
 /* mediaqueri */
 
 @media screen and (max-width: 992px) {
