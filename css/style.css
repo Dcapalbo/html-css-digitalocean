@@ -225,7 +225,7 @@ p {
   font-size: 50px;
 }
 
-.jumbotron .container div p {
+.container div p {
   font-weight: bold;
   line-height: 28px;
   font-size: 17px;
@@ -426,7 +426,6 @@ p {
 
 .fifth_section {
   background-color: #F3F5F9;
-  height: 650px;
 }
 
 .fifth_section .square_white {
@@ -472,7 +471,6 @@ border-radius: 15px;
 
 .first_footer_section {
   background-color: #0028A3;
-  width: 100%;
 }
 
 .first_footer_section h2 {
@@ -494,7 +492,7 @@ border-radius: 15px;
 
 .second_footer_section {
   background-color: #031C4E;
-  width:100%;
+  width: 100%;
 }
 
 .second_footer_section img {
@@ -531,8 +529,8 @@ border-radius: 15px;
   z-index: 1;
   right: 0%;
   bottom:0%;
-  border-radius: 20px;
-  margin-right: 50px;
+  border-radius: 15px;
+  margin: 0px 70px 50px 0px;
 }
 /* mediaqueri */
 
