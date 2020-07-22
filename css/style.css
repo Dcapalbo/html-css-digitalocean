@@ -11,27 +11,6 @@
  margin: auto;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-img {
-  width: 100%;
-  min-width: 100px;
-}
-
-h2 {
-  font-weight: bold;
-}
-
-h5 {
-  margin-top: 8px;
-}
-
-p {
-  color: #A9A9A9;
-}
-
 .text-align-center {
  text-align: center;
 }
@@ -164,6 +143,29 @@ p {
 .border {
   border-bottom: 1px solid #fff;
 }
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+  min-width: 100px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 8px;
+}
+
+p {
+  color: #A9A9A9;
+}
+
  /* End basic value */
 
  /* specific style */
@@ -214,7 +216,7 @@ p {
  .jumbotron_header {
    background-image: url(../img/bg_home.jpg);
    background-repeat: no-repeat;
-   background-size: 2000px;
+   width: 100%;
    margin-top: 100px;
  }
 
@@ -250,7 +252,7 @@ p {
 
 .jumbotron_btn {
  margin-top: 10px;
- padding: 5px 179px;
+ width: 100%;
  border: 2px solid #579AFF;
  border-radius: 5px;
  background-color: #579AFF;
@@ -290,8 +292,6 @@ p {
 
 .header_bottom img {
   width: calc(100%/ 6);
-  float: left;
-  vertical-align: middle;
 }
 
 /* fine header bottom */
@@ -428,9 +428,14 @@ p {
   background-color: #F3F5F9;
 }
 
+.square_white {
+  position: relative;
+  padding-left: 30px;
+}
+
 .fifth_section .square_white {
-background-color: #fff;
-border-radius: 15px;
+ background-color: #fff;
+ border-radius: 15px;
 }
 
 .fifth_section img {
@@ -451,16 +456,20 @@ border-radius: 15px;
 }
 
 .fifth_section .fa-angle-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-120%, -50%);
   font-size: 40px;
-  margin-left: 88%;
-  padding-top: 100%;
   opacity: 0.5;
 }
 
 #fangleright {
   font-size: 40px;
-  margin-right: 100%;
-  padding-top: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, -50%);
 }
 
 /* fine quinta sezione */
@@ -545,31 +554,24 @@ border-radius: 15px;
   }
 }
 
-  .jumbotron_btn {
-    padding: 5px 279px;
-  }
-
 @media screen and (min-width: 992px) and (max-width:1200px) {
-
-  .jumbotron_btn {
-    padding: 5px 107px;
-  }
 
   .fourth_section .row p {
     font-size: 12px;
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width:2000px) {
+@media screen and (min-width: 260px) and (max-width:768px) {
 
-  .jumbotron_btn {
-    padding: 5px 149px;
+  .header_bottom img {
+    width: calc(100%/ 2);
   }
 }
 
-@media screen and (min-width: 500px) and (max-width:749px) {
+@media screen and (min-width: 0px) and (max-width:260px) {
 
-  .jumbotron_btn {
-    padding: 5px 275px;
+  .header_bottom img {
+    width: calc(100%/ 1);
+    text-align: center;
   }
 }
