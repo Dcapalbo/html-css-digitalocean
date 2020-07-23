@@ -6,7 +6,7 @@
  clear: both;
 }
 
-.wrapper {
+.second_wrapper {
  width: 60%;
  margin: auto;
 }
@@ -213,12 +213,12 @@ p {
 
 /* jumbotron */
 
- .jumbotron_header {
-   background-image: url(../img/bg_home.jpg);
-   background-repeat: no-repeat;
-   width: 100%;
-   margin-top: 100px;
- }
+.jumbotron_header {
+  background-image: url(../img/bg_home.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 100px;
+}
 
 .container div h1 {
   color: #fff;
@@ -257,6 +257,28 @@ p {
  border-radius: 5px;
  background-color: #579AFF;
  color: #fff;
+}
+
+.jumbotron_btn_2 {
+ margin-top: 10px;
+ width: 100%;
+ border: 2px solid lightgrey;
+ border-radius: 5px;
+ background-color: #fff;
+ color: #808080;
+ padding: 5px 0px;
+}
+
+.Google_img_button {
+  position: relative;
+}
+
+.fa-google {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+  font-size: 20px;
+  color: #579AFF;
 }
 
 .jumbotron_header form p {
