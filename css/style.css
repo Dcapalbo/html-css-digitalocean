@@ -141,7 +141,7 @@
 }
 
 .border {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #034AFF;
 }
 
 
@@ -199,6 +199,16 @@ p {
   color: #034AFF;
  }
 
+ .header_top_btn:hover {
+   font-size: 1.5em;
+   font-weight: 400;
+   color: #fff;
+   transition: .5s ease;
+   text-decoration: none;
+   background-color:#034AFF;
+ }
+
+
  .fa-bars {
    font-size: 30px;
    color: #034AFF;
@@ -207,6 +217,23 @@ p {
 
 .fa-angle-down {
   padding-left: 2px;
+}
+
+.header_top a {
+  color: #000;
+}
+
+.header_top a:hover {
+  font-size: 2em;
+  font-weight: 400;
+  color: #034AFF;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
+.header_top li:hover {
+  color: #034AFF;
+  transition: .5s ease;
 }
 
  /* header top */
@@ -316,6 +343,14 @@ p {
   width: calc(100%/ 6);
 }
 
+.header_bottom a:hover {
+  font-size: 2em;
+  font-weight: 400;
+  color: #034AFF;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
 /* fine header bottom */
 
 /* prima sezione main */
@@ -331,8 +366,7 @@ p {
 
 .first_section .row .menu_block {
   list-style: none;
-  color: #A9A9A9;
-  border-left: 1px solid #A9A9A9;
+  border-left: 1px solid #034AFF;
   padding-left: 10px;
 }
 
@@ -363,6 +397,14 @@ p {
 
 .first_section .row p {
   font-size: 15px;
+}
+
+.first_section a:hover {
+  font-size: 2em;
+  font-weight: 400;
+  color: #034AFF;
+  transition: .5s ease;
+  text-decoration: none;
 }
 
 /* fine prima sezione */
@@ -417,6 +459,14 @@ p {
 .third_section img {
   width: 50px;
   height: 50px;
+}
+
+.third_section a:hover {
+  font-size: 2em;
+  font-weight: 400;
+  color: #034AFF;
+  transition: .5s ease;
+  text-decoration: none;
 }
 
 /* fine terza sezione main */
@@ -494,6 +544,14 @@ p {
   transform: translate(100%, -50%);
 }
 
+.fifth_section a:hover {
+  font-size: 2em;
+  font-weight: 400;
+  color: #034AFF;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
 /* fine quinta sezione */
 
 /* inizio footer */
@@ -515,6 +573,15 @@ p {
  border-radius: 10px;
  background-color: #fff;
  color: #0028A3;
+}
+
+.first_footer_section .footer_btn:hover {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #fff;
+  transition: .5s ease;
+  text-decoration: none;
+  background-color:#034AFF;
 }
 
 /* fine prima sezione footer */
@@ -593,6 +660,17 @@ p {
   margin: 0px 70px 50px 0px;
 }
 
+.second_footer_section a {
+  color: #A9A9A9;
+}
+
+.second_footer_section a:hover {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fff;
+  transition: .5s ease;
+  text-decoration: none;
+}
 /* mediaqueri */
 
 @media screen and (max-width: 992px) {
